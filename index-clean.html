@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Data Analyst & Full Stack Developer | Portfolio">
+  <meta name="theme-color" content="#0f1724">
+  
+  <title>Portfolio | Data Analyst & Full Stack Developer</title>
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="styles-clean.css">
+</head>
+<body>
+
+<!-- ========== NAVIGATION ========== -->
+<nav class="navbar">
+  <div class="container">
+    <div class="logo">Portfolio</div>
+    <ul class="nav-links">
+      <li><a href="#hero" class="nav-link">Home</a></li>
+      <li><a href="#about" class="nav-link">About</a></li>
+      <li><a href="#education" class="nav-link">Education</a></li>
+      <li><a href="#skills" class="nav-link">Skills</a></li>
+      <li><a href="#projects" class="nav-link">Projects</a></li>
+      <li><a href="#contact" class="nav-link">Contact</a></li>
+    </ul>
+    <button class="mobile-menu-btn">☰</button>
+    <div class="mobile-menu">
+      <a href="#hero">Home</a>
+      <a href="#about">About</a>
+      <a href="#education">Education</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </div>
+  <div class="scroll-progress"></div>
+</nav>
+
+<!-- ========== HERO SECTION ========== -->
+<section id="hero" class="hero">
+  <div class="hero-content">
+    <p class="hero-greeting">Welcome to my portfolio</p>
+    <h1 class="hero-name">Hi, I'm <span style="color: #c99b38;">Your Name</span></h1>
+    <p class="hero-tagline">
+      I'm a <span class="typed-role">Data Analyst</span> | Full Stack Developer
+    </p>
+    <p class="hero-description">
+      Transforming data into actionable insights and building scalable web applications. 
+      Passionate about solving complex problems with code and data.
+    </p>
+    <div class="hero-buttons">
+      <button class="btn btn-hero" onclick="document.getElementById('projects').scrollIntoView({behavior:'smooth'})">
+        View My Work
+      </button>
+      <a href="#contact" class="btn btn-glass">Get In Touch</a>
+    </div>
+    <div class="hero-socials">
+      <a href="https://linkedin.com" class="social-link" title="LinkedIn">in</a>
+      <a href="https://github.com" class="social-link" title="GitHub">⚙</a>
+      <a href="https://twitter.com" class="social-link" title="Twitter">𝕏</a>
+      <a href="mailto:your@email.com" class="social-link" title="Email">✉</a>
+    </div>
+  </div>
+</section>
+
+<!-- ========== ABOUT SECTION ========== -->
+<section id="about" class="reveal">
+  <div class="container">
+    <div class="section-header">
+      <h2>About Me</h2>
+      <p>A brief introduction about yourself and your professional journey</p>
+    </div>
+    
+    <div class="about-grid">
+      <div class="about-content">
+        <h3>Data Analyst & Developer</h3>
+        <p>
+          I'm a passionate developer with expertise in data analysis and full-stack web development. 
+          With 2+ years of experience, I've worked on projects involving data visualization, 
+          statistical analysis, and building responsive web applications.
+        </p>
+        <ul class="about-list">
+          <li>Data Analysis using Python & SQL</li>
+          <li>Full Stack Web Development</li>
+          <li>Data Visualization & Dashboards</li>
+          <li>Problem Solving & Optimization</li>
+          <li>Team Collaboration</li>
+        </ul>
+      </div>
+      
+      <div class="profile-card glass-card reveal-right">
+        <img src="assets/images/profile.jpg" alt="Profile">
+        <h3>Your Name</h3>
+        <p class="muted">Data Analyst | Full Stack Developer</p>
+        <div class="socials">
+          <a href="https://linkedin.com">LinkedIn</a>
+          <a href="https://github.com">GitHub</a>
+          <a href="mailto:your@email.com">Email</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ========== EDUCATION SECTION ========== -->
+<section id="education" class="reveal">
+  <div class="container">
+    <div class="section-header">
+      <h2>Education</h2>
+      <p>Academic credentials and certifications</p>
+    </div>
+    
+    <div class="timeline">
+      <div class="timeline-item reveal-left">
+        <div class="timeline-dot"></div>
+        <div class="timeline-content glass-card">
+          <h3 class="timeline-title">Bachelor of Technology</h3>
+          <p class="timeline-meta">2018 - 2022 | Your University</p>
+          <p class="timeline-description">
+            Specialized in Computer Science with focus on Data Structures, Algorithms, 
+            and Database Management. GPA: 3.8/4.0
+          </p>
+        </div>
+      </div>
+      
+      <div class="timeline-item reveal-left">
+        <div class="timeline-dot"></div>
+        <div class="timeline-content glass-card">
+          <h3 class="timeline-title">Data Science Certification</h3>
+          <p class="timeline-meta">2023 | Online Platform</p>
+          <p class="timeline-description">
+            Comprehensive course covering Python, SQL, Statistics, Machine Learning, 
+            and Data Visualization.
+          </p>
+        </div>
+      </div>
+      
+      <div class="timeline-item reveal-left">
+        <div class="timeline-dot"></div>
+        <div class="timeline-content glass-card">
+          <h3 class="timeline-title">Full Stack Web Development Bootcamp</h3>
+          <p class="timeline-meta">2023 | Coding Academy</p>
+          <p class="timeline-description">
+            Intensive bootcamp covering HTML, CSS, JavaScript, React, Node.js, 
+            Express, and MongoDB.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ========== SKILLS SECTION ========== -->
+<section id="skills" class="reveal">
+  <div class="container">
+    <div class="section-header">
+      <h2>Skills & Expertise</h2>
+      <p>Technologies and tools I work with</p>
+    </div>
+    
+    <div class="skills-grid">
+      <!-- Data Analysis Skills -->
+      <div class="glass-card skill-card reveal">
+        <h3>📊 Data Analysis</h3>
+        <div class="skill-item">
+          <div class="skill-info">
+            <span>Python</span>
+            <span class="skill-level">85%</span>
+          </div>
+          <div class="skill-bar"><div class="skill-fill" style="width:85%"></div></div>
+        </div>
+        <div class="skill-item">
+          <div class="skill-info">
+            <span>SQL</span>
+            <span class="skill-level">80%</span>
+          </div>
+          <div class="skill-bar"><div class="skill-fill" style="width:80%"></div></div>
+        </div>
+        <div class="skill-item">
+          <div class="skill-info">
+            <span>Statistics</span>
+            <span class="skill-level">75%</span>
+          </div>
+          <div class="skill-bar"><div class="skill-fill" style="width:75%"></div></div>
+        </div>
+        <div class="skill-item">
+          <div class="skill-info">
+            <span>Tableau/Power BI</span>
+            <span class="skill-level">70%</span>
+          </div>
+          <div class="skill-bar"><div class="skill-fill" style="width:70%"></div></div>
+        </div>
+      </div>
+      
+      <!-- Web Development Skills -->
+      <div class="glass-card skill-card reveal">
+        <h3>💻 Web Development</h3>
+        <div class="skill-item">
+          <div class="skill-info">
+            <span>JavaScript</span>
+            <span class="skill-level">80%</span>
+          </div>
+          <div class="skill-bar"><div class="skill-fill" style="width:80%"></div></div>
+        </div>
+        <div class="skill-item">
+          <div class="skill-info">
+            <span>React</span>
+            <span class="skill-level">75%</span>
+          </div>
+          <div class="skill-bar"><div class="skill-fill" style="width:75%"></div></div>
+        </div>
+        <div class="skill-item">
+          <div class="skill-info">
+            <span>Node.js & Express</span>
+            <span class="skill-level">80%</span>
+          </div>
+          <div class="skill-bar"><div class="skill-fill" style="width:80%"></div></div>
+        </div>
+        <div class="skill-item">
+          <div class="skill-info">
+            <span>MongoDB/SQL</span>
+            <span class="skill-level">80%</span>
+          </div>
+          <div class="skill-bar"><div class="skill-fill" style="width:80%"></div></div>
+        </div>
+      </div>
+      
+      <!-- Tools & Others -->
+      <div class="glass-card skill-card reveal">
+        <h3>🛠️ Tools & Others</h3>
+        <div class="skill-item">
+          <div class="skill-info">
+            <span>Git/GitHub</span>
+            <span class="skill-level">85%</span>
+          </div>
+          <div class="skill-bar"><div class="skill-fill" style="width:85%"></div></div>
+        </div>
+        <div class="skill-item">
+          <div class="skill-info">
+            <span>APIs & REST</span>
+            <span class="skill-level">80%</span>
+          </div>
+          <div class="skill-bar"><div class="skill-fill" style="width:80%"></div></div>
+        </div>
+        <div class="skill-item">
+          <div class="skill-info">
+            <span>HTML/CSS</span>
+            <span class="skill-level">90%</span>
+          </div>
+          <div class="skill-bar"><div class="skill-fill" style="width:90%"></div></div>
+        </div>
+        <div class="skill-item">
+          <div class="skill-info">
+            <span>Excel/Spreadsheets</span>
+            <span class="skill-level">85%</span>
+          </div>
+          <div class="skill-bar"><div class="skill-fill" style="width:85%"></div></div>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Tech Stack -->
+    <div class="reveal" style="margin-top: 3rem; text-align: center;">
+      <h3 style="margin-bottom: 1.5rem; color: #c99b38;">Tech Stack</h3>
+      <div class="tools-grid">
+        <span class="tool-badge">Python</span>
+        <span class="tool-badge">JavaScript</span>
+        <span class="tool-badge">React</span>
+        <span class="tool-badge">Node.js</span>
+        <span class="tool-badge">SQL</span>
+        <span class="tool-badge">MongoDB</span>
+        <span class="tool-badge">Git</span>
+        <span class="tool-badge">HTML5</span>
+        <span class="tool-badge">CSS3</span>
+        <span class="tool-badge">Tableau</span>
+        <span class="tool-badge">Power BI</span>
+        <span class="tool-badge">Excel</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ========== PROJECTS SECTION ========== -->
+<section id="projects" class="reveal">
+  <div class="container">
+    <div class="section-header">
+      <h2>Projects</h2>
+      <p>Showcase of my work and expertise</p>
+    </div>
+    
+    <div class="projects-grid">
+      <!-- Project 1 -->
+      <div class="glass-card project-card reveal">
+        <div class="project-image">
+          <img src="assets/images/project1.jpg" alt="Project 1">
+        </div>
+        <div class="project-content">
+          <p class="project-label">Data Analysis</p>
+          <h3 class="project-title">Sales Analytics Dashboard</h3>
+          <p class="project-description">
+            Interactive Power BI dashboard analyzing sales trends across regions. 
+            Features KPI tracking and forecasting models.
+          </p>
+          <div class="project-tags">
+            <span class="project-tag">Power BI</span>
+            <span class="project-tag">SQL</span>
+            <span class="project-tag">Analytics</span>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Project 2 -->
+      <div class="glass-card project-card reveal">
+        <div class="project-image">
+          <img src="assets/images/project2.jpg" alt="Project 2">
+        </div>
+        <div class="project-content">
+          <p class="project-label">Web Development</p>
+          <h3 class="project-title">E-Commerce Platform</h3>
+          <p class="project-description">
+            Full-stack MERN application with user authentication, product catalog, 
+            shopping cart, and payment integration.
+          </p>
+          <div class="project-tags">
+            <span class="project-tag">React</span>
+            <span class="project-tag">Node.js</span>
+            <span class="project-tag">MongoDB</span>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Project 3 -->
+      <div class="glass-card project-card reveal">
+        <div class="project-image">
+          <img src="assets/images/project3.jpg" alt="Project 3">
+        </div>
+        <div class="project-content">
+          <p class="project-label">Data Science</p>
+          <h3 class="project-title">Customer Churn Prediction</h3>
+          <p class="project-description">
+            Machine learning model predicting customer churn with 85% accuracy. 
+            Includes EDA and feature engineering.
+          </p>
+          <div class="project-tags">
+            <span class="project-tag">Python</span>
+            <span class="project-tag">ML</span>
+            <span class="project-tag">Pandas</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ========== CONTACT SECTION ========== -->
+<section id="contact" class="reveal">
+  <div class="container">
+    <div class="section-header">
+      <h2>Get In Touch</h2>
+      <p>Let's discuss your next project or opportunity</p>
+    </div>
+    
+    <div class="contact-grid">
+      <!-- Contact Info -->
+      <div class="contact-info">
+        <h3>Let's Connect</h3>
+        <p>Feel free to reach out for collaboration or just a friendly hello. I'll get back to you as soon as possible.</p>
+        
+        <div class="contact-links">
+          <div class="contact-link">
+            <div class="contact-link-icon">📧</div>
+            <div>
+              <p class="contact-link-label">Email</p>
+              <p class="contact-link-value">your.email@example.com</p>
+            </div>
+          </div>
+          
+          <div class="contact-link">
+            <div class="contact-link-icon">📱</div>
+            <div>
+              <p class="contact-link-label">Phone</p>
+              <p class="contact-link-value">+91 XXXXX XXXXX</p>
+            </div>
+          </div>
+          
+          <div class="contact-link">
+            <div class="contact-link-icon">📍</div>
+            <div>
+              <p class="contact-link-label">Location</p>
+              <p class="contact-link-value">City, Country</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Contact Form -->
+      <div class="contact-form-wrapper glass-card">
+        <form id="contact-form" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+          <!-- Replace YOUR_FORM_ID with your actual Formspree form ID -->
+          <div class="form-row">
+            <div class="form-group">
+              <label for="name">Full Name *</label>
+              <input type="text" id="name" name="name" required>
+              <span class="error-message"></span>
+            </div>
+            <div class="form-group">
+              <label for="email">Email Address *</label>
+              <input type="email" id="email" name="email" required>
+              <span class="error-message"></span>
+            </div>
+          </div>
+          
+          <div class="form-group">
+            <label for="subject">Subject *</label>
+            <input type="text" id="subject" name="subject" required>
+            <span class="error-message"></span>
+          </div>
+          
+          <div class="form-group">
+            <label for="message">Message *</label>
+            <textarea id="message" name="message" required></textarea>
+            <span class="error-message"></span>
+          </div>
+          
+          <button type="submit" class="btn btn-hero" id="submit-btn">Send Message</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ========== FOOTER ========== -->
+<footer class="footer">
+  <div class="container">
+    <nav class="footer-nav">
+      <a href="#hero">Home</a>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    
+    <div class="footer-socials">
+      <a href="https://linkedin.com">LinkedIn</a>
+      <a href="https://github.com">GitHub</a>
+      <a href="https://twitter.com">Twitter</a>
+      <a href="mailto:your@email.com">Email</a>
+    </div>
+    
+    <p class="footer-copyright">© 2024 Your Name. All rights reserved.</p>
+  </div>
+</footer>
+
+<!-- Scripts -->
+<script src="script-clean.js"></script>
+
+</body>
+</html>
