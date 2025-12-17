@@ -1,8 +1,3 @@
-/* ====================================================
-   CLEAN & OPTIMIZED PORTFOLIO CSS
-   Light Performance, No Heavy Animations
-   ==================================================== */
-
 :root {
   --background: hsl(225, 25%, 4%);
   --foreground: hsl(45, 30%, 96%);
@@ -843,3 +838,4 @@ section {
   .projects-grid { grid-template-columns: 1fr; }
   .skills-grid { grid-template-columns: 1fr; }
 }
+
